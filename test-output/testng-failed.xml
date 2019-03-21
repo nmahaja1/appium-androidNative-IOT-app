@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="android-automation-test-suite(failed)">
+    <classes>
+      <class name="tests.KenmoreOvenProductTest">
+        <methods>
+          <include name="initializeSuite"/>
+          <include name="TeardownTest"/>
+          <include name="testOvenSlowCookLoCycle"/>
+        </methods>
+      </class> <!-- tests.KenmoreOvenProductTest -->
+    </classes>
+  </test> <!-- android-automation-test-suite(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
